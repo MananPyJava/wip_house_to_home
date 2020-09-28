@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meghna's Art Shop</title>
+</head>
+<body>
+	<div  class="container-fluid">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="path/to/instafeed.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="/"><img src="https://media.tenor.com/images/248001061442aab505d1dd7d4106b217/tenor.gif" width="32">Meghna's Art Shop</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	
+		<div class="collapse navbar-collapse" id="navbarColor01">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+			  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item active">
+			  <a class="nav-link" href="/shop">Shop<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item active">
+			  <a class="nav-link" href="/about">About<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="/contact">Contact<span class="sr-only">(current)</span></a>
+			</li>
+		  </ul>
+		  <form class="form-inline" action="/shop" method="">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q">
+			<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+		  </form>
+		</div>
+      </nav>  
+      <h1>Please check your mail for the confirmation OTP:
+      <form action="check" method="POST">
+        {% csrf_token %}
+        <input type="number" name="OTP" placeholder="Please write your OTP here">
+        <input type="submit">
+	  </form>
+	</h1>
+	</div>
+</body>
+</html>
