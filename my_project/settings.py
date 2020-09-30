@@ -25,7 +25,7 @@ SECRET_KEY = 'fc7942ef556c5250dd2efba034da942515802adaa0f392ce'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['wip-house-to-home.herokuapp.com']
+ALLOWED_HOSTS = ['wip-house-to-home.herokuapp.com', '*']
 
 
 # Application definition
