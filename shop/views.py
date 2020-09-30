@@ -10,6 +10,7 @@ ordered_item=''
 name=''
 phone_number=0
 address=''
+customization=''
 # Create your views here.
 def shop(request):
     global context
@@ -49,12 +50,13 @@ def search(request, q):
         return render(request, 'no_item.html')
 
 def buy(request):
-    global context, real_otp, email, ordered_item, name, phone_number, address
+    global context, real_otp, email, ordered_item, name, phone_number, address, customization
     ordered_item=context.name_of_item
     name=request.POST['name']
     address=request.POST['address']
     email=request.POST['email']
     phone_number=request.POST['phone_number']
+    customization=request.POST['customization']
     if name=='':
         return render(request, 'all_details.html')
     elif address=='':
@@ -62,6 +64,8 @@ def buy(request):
     elif email=='':
         return render(request, 'all_details.html')
     elif phone_number=='':
+        return render(request, 'all_details.html')
+    elif customization=='':
         return render(request, 'all_details.html')
     else:
         real_otp=random.randint(100000,999999)

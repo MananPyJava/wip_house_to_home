@@ -13,3 +13,4 @@ class orders(models.Model):
     email=models.EmailField(max_length=50)
     ordered_item=models.CharField(max_length=100, default='')
     phone_number=models.IntegerField(default=0)
+    customization=models.CharField(max_length=100, default='')
