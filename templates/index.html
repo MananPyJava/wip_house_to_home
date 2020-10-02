@@ -14,6 +14,24 @@
     <script type="text/javascript" src="path/to/instafeed.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <style> @keyframes gradient {
+			  0% {
+				  background-position: 0% 50%;
+			  }
+			  50% {
+				  background-position: 100% 50%;
+			  }	
+			  100% {
+				  background-position: 0% 50%;
+			  }
+		  }
+		body {
+		  font-family: Arial, Helvetica, sans-serif;
+		  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+		  background-size: 400% 400%;
+		  animation: gradient 15s ease infinite;
+		}
+		</style>
         <a class="navbar-brand" href="/"><img src="https://media.tenor.com/images/248001061442aab505d1dd7d4106b217/tenor.gif" width="32">Meghna's Art Shop</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
