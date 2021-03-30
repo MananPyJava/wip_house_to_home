@@ -23,7 +23,7 @@ urlpatterns = [
     path('shop/',include('shop.urls')),
     path('about', views.about,name='about'),
     path('contact', views.contact,name='contact'),
-    path('google0c6908d28b29a56a.html', views.google_verification),
+    path(r'^googlea14532fb912s486\.html$', lambda r: HttpResponse("google-site-verification: googlea14532fb912s486.html", mimetype="text/plain")),
 ]
 handler404='my_project.views.no_url'
 handler500='my_project.views.no_url2'
