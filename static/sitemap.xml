@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://wip-house-to-home.herokuapp.com/</loc>
+  <lastmod>2021-03-30T15:41:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://wip-house-to-home.herokuapp.com/shop/</loc>
+  <lastmod>2021-03-30T15:41:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wip-house-to-home.herokuapp.com/about</loc>
+  <lastmod>2021-03-30T15:41:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wip-house-to-home.herokuapp.com/contact</loc>
+  <lastmod>2021-03-30T15:41:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wip-house-to-home.herokuapp.com/shop/?buy=painted%20table</loc>
+  <lastmod>2021-03-30T15:41:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wip-house-to-home.herokuapp.com/shop/?buy=Customizable%20Letters</loc>
+  <lastmod>2021-03-30T15:41:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wip-house-to-home.herokuapp.com/shop/?buy=Painted%20Bottle</loc>
+  <lastmod>2021-03-30T15:41:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wip-house-to-home.herokuapp.com/shop/?buy=KItchen%20Wall%20Clock</loc>
+  <lastmod>2021-03-30T15:41:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wip-house-to-home.herokuapp.com/shop/?buy=Kitchen%20TimeTable</loc>
+  <lastmod>2021-03-30T15:41:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
