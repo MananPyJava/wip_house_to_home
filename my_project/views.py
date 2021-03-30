@@ -23,3 +23,6 @@ def contact(request):
         return redirect('/')
     except:
         return render(request, 'contact.html')
+    
+def google_verification(request):
+    return render(request, 'google0c6908d28b29a56a.html')
